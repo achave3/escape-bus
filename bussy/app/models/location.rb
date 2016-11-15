@@ -4,6 +4,5 @@ class Location < ActiveRecord::Base
     
     def full_street_address
         "#{street_address}, #{city}, GA"
-        
     end
 end
